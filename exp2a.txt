@@ -1,0 +1,11 @@
+code lines:-
+
+a)
+touch new.txt
+date; who>new.txt
+cat new.txt
+
+b)
+
+cat new2.txt
+sed 's/^\([^ ]*\) \([^ ]*\)/\2 \1/' new2.txt
